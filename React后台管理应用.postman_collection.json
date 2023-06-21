@@ -1,0 +1,47 @@
+{
+	"id": "929b831e-2179-e802-6e0f-ba47dbaaac1d",
+	"name": "React后台管理应用",
+	"description": "",
+	"order": [
+		"339e1bfb-6c4e-80bc-63c7-a14f3518252a"
+	],
+	"folders": [],
+	"timestamp": 1686034209187,
+	"owner": 8699290,
+	"public": false,
+	"requests": [
+		{
+			"id": "339e1bfb-6c4e-80bc-63c7-a14f3518252a",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://localhost:5000/login",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "929b831e-2179-e802-6e0f-ba47dbaaac1d",
+			"data": [
+				{
+					"key": "username",
+					"value": "admin",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "admin",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "登录",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1686034227787,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
