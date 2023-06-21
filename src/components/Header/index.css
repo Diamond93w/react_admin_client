@@ -1,0 +1,47 @@
+.header {
+  height: 80px;
+  background-color: #fff;
+}
+.header .header-top {
+  height: 40px;
+  line-height: 40px;
+  padding-right: 20px;
+  text-align: right;
+  border-bottom: 1px solid #1da57a;
+  font-size: 12px;
+}
+.header .header-top span {
+  margin-right: 10px;
+}
+.header .header-top a {
+  color: #1da57a;
+}
+.header .header-bottom {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.header .header-bottom .header-bottom-left {
+  position: relative;
+  width: 25%;
+  text-align: center;
+}
+.header .header-bottom .header-bottom-left::after {
+  content: '';
+  position: absolute;
+  right: 50%;
+  top: 150%;
+  transform: translateX(50%);
+  border-top: 10px solid white;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+.header .header-bottom .header-bottom-right {
+  width: 75%;
+  text-align: right;
+  margin-right: 30px;
+}
+.header .header-bottom .header-bottom-right span {
+  margin-right: 10px;
+}
