@@ -58,6 +58,7 @@ function User() {
     {
       title: 'phone',
       dataIndex: 'phone',  // 指定需要显示数据的属性名
+      // 13123123123123123
     },
   ]
 
